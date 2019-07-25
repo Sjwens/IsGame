@@ -20,7 +20,7 @@ Vue.component('product-a', {
 })
 Vue.component(
     'async-example',
-    () => import('./my-async-component')
+    () => import('./my-async-component.vue')
 )
 Vue.component('custom-input', {
     props: ['value'],
