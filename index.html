@@ -9,8 +9,12 @@
 </head>
 <body>
     <div id="app">
-        <!-- {{ dataMax }} -->
+        {{ dataMax }}
         <product-a :msg='9090'></product-a>
+        <custom-input v-model="searchText"></custom-input>
+        <base-checkbox v-model="lovingVue"></base-checkbox>
+        <!-- <base-input @focus.native="onFocus()"></base-input> -->
+        <async-example></async-example>
     </div>
 </body>
     <script src="https://cdn.bootcss.com/vue/2.6.10/vue.js"></script>
